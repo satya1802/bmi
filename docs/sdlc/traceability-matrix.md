@@ -9,12 +9,12 @@ Built from recorded links, not written by a model: requirement key → plan item
 <!-- sdlc:auto:start matrix -->
 | Requirement | Epic | Title | Plan items | Sprint | Design | Code | Commits | Ticket | Tests | AC tests | Deployed |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| US-001 | EPIC-001 | Enter height and weight | — | — | — | — | — | not started | not run | 0/2 tested · 0/2 passing | — |
-| US-002 | EPIC-001 | See instant BMI value | — | — | — | — | — | not started | not run | 0/2 tested · 0/2 passing | — |
-| US-003 | EPIC-001 | See BMI category per WHO adult ranges | — | — | — | — | — | not started | not run | 0/3 tested · 0/3 passing | — |
-| US-004 | EPIC-002 | Toggle between metric and imperial units | — | — | — | — | — | not started | not run | 0/4 tested · 0/4 passing | — |
-| US-005 | EPIC-003 | See informational, not-medical-advice disclaimer | — | — | — | — | — | not started | not run | 0/1 tested · 0/1 passing | — |
-| US-006 | EPIC-003 | Values stay in the browser with nothing saved | — | — | — | — | — | not started | not run | 0/2 tested · 0/2 passing | — |
-| US-007 | EPIC-004 | Use the calculator on mobile and desktop browsers | — | — | — | — | — | not started | not run | 0/3 tested · 0/3 passing | — |
-| US-008 | EPIC-004 | Use the tool free of charge | — | — | — | — | — | not started | not run | 0/1 tested · 0/1 passing | — |
+| US-001 | EPIC-001 | Enter height and weight | US-001 | 1 | frontend | — | — | not started | not run | 0/2 tested · 0/2 passing | — |
+| US-002 | EPIC-001 | See instant BMI value | US-002 | 1 | frontend | — | — | not started | not run | 0/2 tested · 0/2 passing | — |
+| US-003 | EPIC-001 | See BMI category per WHO adult ranges | US-003 | 1 | frontend | — | — | not started | not run | 0/3 tested · 0/3 passing | — |
+| US-004 | EPIC-002 | Toggle between metric and imperial units | US-004 | 2 | frontend | — | — | not started | not run | 0/4 tested · 0/4 passing | — |
+| US-005 | EPIC-003 | See informational, not-medical-advice disclaimer | US-005 | 1 | frontend | — | — | not started | not run | 0/1 tested · 0/1 passing | — |
+| US-006 | EPIC-003 | Values stay in the browser with nothing saved | US-006 | 1 | frontend | — | — | not started | not run | 0/2 tested · 0/2 passing | — |
+| US-007 | EPIC-004 | Use the calculator on mobile and desktop browsers | US-007 | 2 | GET /, backend, frontend | — | — | not started | not run | 0/3 tested · 0/3 passing | — |
+| US-008 | EPIC-004 | Use the tool free of charge | US-008 | 2 | frontend | — | — | not started | not run | 0/1 tested · 0/1 passing | — |
 <!-- sdlc:auto:end matrix -->
