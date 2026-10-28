@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 Simple BMI calculator
 
-**Documentation version:** v2
+**Documentation version:** v3
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -15,7 +15,7 @@ Simple BMI calculator
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
 | [Architecture](architecture/README.md) | 13 entries |
-| [Development](development/README.md) | 1 entry |
+| [Development](development/README.md) | 3 entries |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
 | [Maintenance](maintenance/README.md) | 1 entry |
@@ -31,7 +31,7 @@ Simple BMI calculator
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 8 requirements |
-| [Changelog](CHANGELOG.md) | 2 versions |
+| [Changelog](CHANGELOG.md) | 3 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -58,8 +58,12 @@ Simple BMI calculator
 
 ### Development
 
-- Development phase has not started -- no planning or implementation records to document.
-- No code exists yet to verify any acceptance criteria from the requirements phase.
+- No actual implementation status (e.g. in-progress/done), code, commits, or PR references were provided for any item -- this entry documents only the approved plan, not execution.
+- No dates were given for plan approval or sprint start/end.
+- Sprint 1's stated goal mentions 'disclaimer' and 'in-browser-only data handling', but the corresponding stories (US-005, US-006) are listed under Sprint 2 in the input, not Sprint 1 -- flagging this as a discrepancy between the sprint goal text and the actual item-to-sprint assignment for human confirmation.
+- No execution/completion status, code, or test results provided for US-001, US-002, or US-003.
+- US-005 and US-006 (disclaimer, data privacy) are scheduled here, which conflicts with Sprint 1's goal text explicitly naming disclaimer and in-browser-only handling as Sprint 1 deliverables -- see discrepancy flagged in DEV-SPRINT-1.
+- No execution/completion status, code, or test results provided for US-004, US-005, US-006, US-007, or US-008.
 
 ### Testing
 
