@@ -7,7 +7,9 @@ _No routes found._
 <!-- sdlc:auto:end endpoints -->
 
 <!-- sdlc:auto:start drift -->
-_Code matches the designed API._
+**Designed but missing:**
+
+- GET /
 <!-- sdlc:auto:end drift -->
 
 <!-- sdlc:auto:start source -->

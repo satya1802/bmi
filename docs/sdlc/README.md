@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 Simple BMI calculator
 
-**Documentation version:** v1
+**Documentation version:** v2
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -14,14 +14,14 @@ Simple BMI calculator
 | Document | State |
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
-| [Architecture](architecture/README.md) | 1 entry |
+| [Architecture](architecture/README.md) | 13 entries |
 | [Development](development/README.md) | 1 entry |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
 | [Maintenance](maintenance/README.md) | 1 entry |
-| [Data model](architecture/data-model.md) | not generated yet |
-| [API (OpenAPI)](architecture/api/openapi.yaml) | not generated yet |
-| [Decisions (ADRs)](architecture/adr/README.md) | 0 decisions |
+| [Data model](architecture/data-model.md) | generated |
+| [API (OpenAPI)](architecture/api/openapi.yaml) | generated |
+| [Decisions (ADRs)](architecture/adr/README.md) | 4 decisions |
 | [Sprint plan](development/sprint-plan.md) | not generated yet |
 | [Developer guide](development/developer-guide.md) | not generated yet |
 | [API reference](development/api-reference.md) | 0 routes |
@@ -31,7 +31,7 @@ Simple BMI calculator
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 8 requirements |
-| [Changelog](CHANGELOG.md) | 1 version |
+| [Changelog](CHANGELOG.md) | 2 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -50,9 +50,11 @@ Simple BMI calculator
 
 ### Architecture
 
-- Architecture phase has not started -- no design artifacts, diagrams, or component breakdowns provided.
-- No screen/UI inventory has been received, which also blocks producing the user_guide section.
-- Unclear how (or whether) FastAPI, AWS, and PostgreSQL will concretely be used given the app's stated client-side-only, no-storage design -- needs architecture-phase clarification.
+- Input does not map individual components or decisions to specific requirement ids (US-001..US-008); traceability from this architecture to those requirements could not be confirmed beyond the implicit privacy/no-persistence framing.
+- No explicit requirement id linkage given in input for this component.
+- No concrete plan or requirement was provided for when/how this database would actually be used; its purpose is speculative future-proofing only.
+- No requirement currently justifies the database's existence; its value is purely speculative/future-facing per the input.
+- NFR-005 is referenced by the architecture input but is not among the known requirement keys (US-001..US-008) provided, so its source/origin outside this architecture doc could not be verified.
 
 ### Development
 

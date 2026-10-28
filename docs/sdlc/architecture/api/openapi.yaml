@@ -2,6 +2,26 @@
 openapi: 3.1.0
 info:
   title: BMI
-  version: architecture-v0
+  version: architecture-v1
   description: Designed API from the approved architecture (not extracted from code).
-paths: {}
+paths:
+  /:
+    get:
+      summary: Serves the built React SPA (index.html and static assets) to anonymous
+        visitors.
+      description: Serves the built React SPA (index.html and static assets) to anonymous
+        visitors.
+      operationId: get
+      parameters: []
+      responses:
+        '200':
+          description: 200 text/html SPA shell
+  /health:
+    get:
+      summary: Liveness/readiness check for the hosting service and load balancer.
+      description: Liveness/readiness check for the hosting service and load balancer.
+      operationId: get_health
+      parameters: []
+      responses:
+        '200':
+          description: '200 {"status": "ok"}'
